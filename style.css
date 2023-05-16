@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:ital,wght@1,300&family=Patua+One&family=Poppins&family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)), url(mountains-clouds-forest-fog.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.search-box{
+    width: 100%;
+    min-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-box input{
+    flex: 1;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: #cac7ff;
+     padding: 20px 30px;
+ 
+
+}
+
+::placeholder{
+    color: hsl(243, 100%, 89%);
+}
+
+.search-box button img{
+    width: 25px;
+}
+
+.search-box button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background: #475084;
+    cursor: pointer;
+}
